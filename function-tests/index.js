@@ -1,4 +1,4 @@
-describe('Create a new variable, `welcome` which', function() {
+describe('1. Create a new variable, `welcome` which', function() {
   it('should be a function', function (){
     expect(welcome).not.toBeUndefined();
     expect(welcome).toBeInstanceOf(Function);
@@ -9,7 +9,7 @@ describe('Create a new variable, `welcome` which', function() {
   });
 });
 
-describe('Create a new variable, `multiply` which', function() {
+describe('2. Create a new variable, `multiply` which', function() {
   it('should be a function', function (){
     expect(multiply).not.toBeUndefined();
     expect(multiply).toBeInstanceOf(Function);
