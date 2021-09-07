@@ -4,7 +4,7 @@ describe('1. Create a new variable, `welcome` which', function() {
     expect(welcome).toBeInstanceOf(Function);
   });
 
-  it('should return "Hello World!"', function (){
+  it('should return "Hello World"', function (){
     expect(welcome()).toBe('Hello World')
   });
 });
