@@ -1,7 +1,4 @@
-var welcome = function () {
-  return 'Hello World'
-};
+var cookieIngredients = ['flour', 'salt', 'butter', 'egg', 'vanilla', 'baking soda', 'sugar', 'chocolate chips'];
 
-var multiply = function (num1, num2) {
-  return num1 * num2;
-};
+cookieIngredients.splice(2, 1, 'lard')
+
