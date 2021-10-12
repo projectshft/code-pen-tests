@@ -13,7 +13,7 @@ describe('Create a new array, `cookieIngredients` which', function() {
   });
 });
 
-describe('Use `.push` 2 times to add "baking soda", then "sugar", then "chocolate chips" to `cookieIngredients`', function() {
+describe('Use `.push` 3 times to add "baking soda", then "sugar", then "chocolate chips" to `cookieIngredients`', function() {
   it('should add "baking soda" to the 5 index', function () {
     expect(cookieIngredients[5]).toBe('baking soda');
   });
