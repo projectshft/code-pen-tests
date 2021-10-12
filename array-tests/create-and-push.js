@@ -4,7 +4,7 @@ describe('Create a new array, `cookieIngredients` which', function() {
     expect(cookieIngredients).toBeInstanceOf(Array);
   });
 
-  it('should have the following items in it (as strings) in this order: "flour", "salt", "butter","egg", "vanilla"', function () {
+  it('should have the following items in it (as strings) in this order: "flour", "salt", "butter", "egg", "vanilla"', function () {
     expect(cookieIngredients[0]).toBe('flour');
     expect(cookieIngredients[1]).toBe('salt');
     expect(cookieIngredients[2]).toBe('butter');
