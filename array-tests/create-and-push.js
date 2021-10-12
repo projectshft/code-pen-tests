@@ -4,7 +4,7 @@ describe('Create a new array, `cookieIngredients` which', function() {
     expect(cookieIngredients).toBeInstanceOf(Array);
   });
 
-  it('should have the following items in it (as strings) in this order: "flour", "baking soda", "salt", "butter", "sugar", "egg", "vanilla"', function () {
+  it('should have the following items in it (as strings) in this order: "flour", "salt", "butter","egg", "vanilla"', function () {
     expect(cookieIngredients[0]).toBe('flour');
     expect(cookieIngredients[1]).toBe('salt');
     expect(cookieIngredients[2]).toBe('butter');
@@ -19,12 +19,10 @@ describe('Use `.push` 2 times to add "baking soda", then "sugar", then "chocolat
   });
 
   it('should add "sugar" to the 6 index', function () {
-    console.log(cookieIngredients);
     expect(cookieIngredients[6]).toBe("sugar");
   })
 
   it('should add "chocolate chips" to the 7 index', function () {
-    console.log(cookieIngredients);
     expect(cookieIngredients[7]).toBe("chocolate chips");
   })
 });
